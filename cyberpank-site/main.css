@@ -39,6 +39,7 @@ body {
 }
 
 .header {
+
 }
 
 .header__background-img {
@@ -100,4 +101,46 @@ body {
 
 .big__picture {
 
+}
+
+.main__promo {
+  background-color: #000;
+  color: white;
+}
+
+.promo__transfer {
+  width: 100%;
+}
+
+.promo__title {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.promo__title-img {
+  padding-top: 15px;
+}
+
+.promo__title-text {
+  color: white;
+  padding-top: 70px;
+  margin-left: 32px;
+}
+
+.promo__desc {
+  width: 965px;
+  opacity: 0.9;
+}
+
+.main__promo-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture {
+  padding-top: 50px;
+}
+
+.promo__form {
+  padding-top: 100px;
 }
