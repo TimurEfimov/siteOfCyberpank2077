@@ -319,7 +319,7 @@ body {
 
 .main__buy .container {
   margin: 0;
-  
+
 }
 
 .main__buy .container {
@@ -446,4 +446,57 @@ body {
   font-size: 12px;
   padding: 15px 0;
   font-weight: 400;
+}
+
+.buy__big-picture {
+  width: 50vw;
+  object-fit: cover;
+}
+
+// .main__promo .container {
+//   display: flex;
+//   justify-content: space-evenly;
+// }
+
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 36px;
+  }
+  .header__bottom {
+    margin-right: 36px;
+  }
+  .buy__text {
+    padding-bottom: 70px;
+  }
+  .picture {
+    display: flex;
+    flex-direction: column;
+    padding: 95px 36px 70px 32px;
+  }
+  .promo__text {
+    max-width: 460px;
+  }
+
+  .main__promo .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .promo__title {
+    flex-direction: column;
+  }
+
+  .promo__title-img {
+    max-width: 132px;
+    max-height: 132px;
+  }
+
+  .promo__title-text {
+    margin: 0;
+    padding-top: 15px;
+  }
+
+  .main__promo-form {
+    padding: 0;
+  }
 }
